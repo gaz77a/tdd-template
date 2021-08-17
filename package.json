@@ -1,0 +1,16 @@
+{
+  "name": "tdd-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:unit": "jest ./src/**/unit/*",
+    "test:integration": "jest ./src/**/integration/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
